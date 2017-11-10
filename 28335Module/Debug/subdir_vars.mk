@@ -7,21 +7,27 @@ CMD_SRCS += \
 ../28335_RAM_lnk.cmd 
 
 C_SRCS += \
-../main.c 
+../main.c \
+../timer_28335.c 
 
 OBJS += \
-./main.obj 
+./main.obj \
+./timer_28335.obj 
 
 C_DEPS += \
-./main.pp 
+./main.pp \
+./timer_28335.pp 
 
 C_DEPS__QUOTED += \
-"main.pp" 
+"main.pp" \
+"timer_28335.pp" 
 
 OBJS__QUOTED += \
-"main.obj" 
+"main.obj" \
+"timer_28335.obj" 
 
 C_SRCS__QUOTED += \
-"../main.c" 
+"../main.c" \
+"../timer_28335.c" 
 
 
